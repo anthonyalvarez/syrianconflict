@@ -1,4 +1,4 @@
-<?php 
+<?php
 $submitted = 0;
 $errmsg = "";
 if ($_REQUEST['action'] == "add") {
@@ -103,6 +103,8 @@ function validate(f) {
 </script>
 </head>
 <body link="#666666" alink="#660000" vlink="#333333" style="max-width: 1024px;">
+  <?php include_once("analyticstracking.php") ?>
+
 <table align="center" bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" width="720">
 <tr>
 <td align="left" valign="top" width="720">
@@ -116,7 +118,7 @@ function validate(f) {
 <br>
 <br>
 <font size="3">
-<strong>World Peace Society and its sponsor, Growth Network, are bringing to your attention a way to solve one of the most serious problems in the World. Everybody should read and study it. Growth Network is also soon to introduce several new businesses that will not only allow you to advance your own life and objectives, but to also help promote our vision for peace and a better World. 
+<strong>World Peace Society and its sponsor, Growth Network, are bringing to your attention a way to solve one of the most serious problems in the World. Everybody should read and study it. Growth Network is also soon to introduce several new businesses that will not only allow you to advance your own life and objectives, but to also help promote our vision for peace and a better World.
 </strong></center>
 <br>
 <br>
@@ -134,16 +136,16 @@ This is a suggestion that we think all should be discussing and will serve as th
 <br>
 
 <ol>
-<li>We suggest the United States propose and encourage the formation of a multi-nation peace keeping police force, called the Syrian Peace Corporation, that will eliminate the ability of any government, group, or individual persons from  shipping to or bearing arms within Syria.  This multi-nation peacekeeping force will not only prevent arms from coming into Syria but will also prevent Syria from being aggressive toward any other nation.   
+<li>We suggest the United States propose and encourage the formation of a multi-nation peace keeping police force, called the Syrian Peace Corporation, that will eliminate the ability of any government, group, or individual persons from  shipping to or bearing arms within Syria.  This multi-nation peacekeeping force will not only prevent arms from coming into Syria but will also prevent Syria from being aggressive toward any other nation.
 </li>
 <br>
 <li>This Syrian Peace Corporation should be made up of several nations, preferably those in the neighborhood of Syria, such as Turkey, Israel, Egypt, Jordan, Lebanon, and even can include the Assad government and other groups currently fighting in Syria, but they have to commit to ending war-making and violent actions.  We believe that any groups now in Syria should not hold more than 10&#37; of this corporation.  We also feel that Russia, China, England, France, and Saudi Arabia should be members.  And even Iran can be invited to join.
 </li>
 <br>
-<li>The purpose of this corporation is to bring immediate peace to Syria and preserve civil rights and liberty to all Syrian inhabitants.  All parties to this agreement have to pledge they will not exercise any war or violence in Syria except through the control and action of the Syrian Peace Corporation.  The percentage ownership of each corporate member also sets the amount they are responsible to contribute to the corporation.  The current value of all armaments surrendered to the corporation can serve as part of a member&#39;s contribution.  
+<li>The purpose of this corporation is to bring immediate peace to Syria and preserve civil rights and liberty to all Syrian inhabitants.  All parties to this agreement have to pledge they will not exercise any war or violence in Syria except through the control and action of the Syrian Peace Corporation.  The percentage ownership of each corporate member also sets the amount they are responsible to contribute to the corporation.  The current value of all armaments surrendered to the corporation can serve as part of a member&#39;s contribution.
 </li>
 <br>
-<li>A second purpose of this corporation is to support free elections for the Syrian people to form a representative government.  Political activity is permitted as long as no violence or violation of civil rights is involved.  
+<li>A second purpose of this corporation is to support free elections for the Syrian people to form a representative government.  Political activity is permitted as long as no violence or violation of civil rights is involved.
 </li>
 </ol>
 Now, we recognize many critics will claim this plan can never be achieved.   If countries with such diverse objectives could work together, it seems we would never have war. But the truth is history has shown us that many nations with many different interests have cooperated and fought together when they felt they had a serious common enemy.  Witness the cooperation of Russia and the United States in the Second World War because they felt Hitler was such a formidable enemy.  Our common enemy now is that many nations face world turmoil if we cannot solve the Syrian problem.  Besides, if we cannot get Russia, China, and Iran involved, we have at least made foreign policy progress by inviting them to join.
@@ -155,10 +157,10 @@ A corporation is not the only form that could tie this group together, but it is
 The details of this plan of action can vary somewhat, but we feel a version of this idea is very real and possible.  We just have to be devoted to the concept of bringing it forward and endeavor to spend the energy to create it.
 <br>
 <br>
-One observation should be recognized.  Ire and distrust have affected more and more Americans who are outraged that we cannot enact measures to better ensure against the horrible mass shootings and human-directed violence attacks that have killed and injured so many of our people.  These are horrible crimes, and we should find every means we can to prevent them.  But let us remember, such crimes have murdered and injured only a few hundred people, and as bad as that is, war and violence outside the United States have killed and injured over hundreds of thousands of people and even, in addition, caused destruction of valuable property.  Isn&#39;t it time the world becomes more serious about ending war and violence.  And though believing peace is possible and working toward it on every level is important, we have to enable means of restricting war and violence now, and it must be able to be applied in our current environment and fit in with the way nations are presently structured.  We think the World Peace Now and Forever Plan offers that opportunity. 
+One observation should be recognized.  Ire and distrust have affected more and more Americans who are outraged that we cannot enact measures to better ensure against the horrible mass shootings and human-directed violence attacks that have killed and injured so many of our people.  These are horrible crimes, and we should find every means we can to prevent them.  But let us remember, such crimes have murdered and injured only a few hundred people, and as bad as that is, war and violence outside the United States have killed and injured over hundreds of thousands of people and even, in addition, caused destruction of valuable property.  Isn&#39;t it time the world becomes more serious about ending war and violence.  And though believing peace is possible and working toward it on every level is important, we have to enable means of restricting war and violence now, and it must be able to be applied in our current environment and fit in with the way nations are presently structured.  We think the World Peace Now and Forever Plan offers that opportunity.
 <br>
 <br>
-Most leaders talking about solutions in Syria are advocating sending arms and armaments to Syrian rebels, but no-one is quite sure who are the good rebels and who are the bad rebels.  In such a situation, the last thing we should want to do is send more armaments into Syria.  The real answer is to disarm all Syrian factions and show that the only force in Syria will be the Syrian Peace Corporation.  If any groups want to use arms in Syria, they will have to do it under the control and maintenance of the Syrian Peace Corporation.  In our opinion, that is the only way of maintaining lasting peace.  The best way to peace throughout the world is to reduce war and violence, not to increase them. 
+Most leaders talking about solutions in Syria are advocating sending arms and armaments to Syrian rebels, but no-one is quite sure who are the good rebels and who are the bad rebels.  In such a situation, the last thing we should want to do is send more armaments into Syria.  The real answer is to disarm all Syrian factions and show that the only force in Syria will be the Syrian Peace Corporation.  If any groups want to use arms in Syria, they will have to do it under the control and maintenance of the Syrian Peace Corporation.  In our opinion, that is the only way of maintaining lasting peace.  The best way to peace throughout the world is to reduce war and violence, not to increase them.
 <br>
 <br>
 Question not whether this can be done, but focus on why this will not work and what is a better alternative.
@@ -170,7 +172,7 @@ A generally overlooked thought follows.  The world has substantially outlawed ch
 If we can almost eradicate chemical and nuclear weapons, then why can&#39;t we try to outlaw all wars and violence.   Small wars often lead to larger wars and they may lead to the use of chemical and nuclear weapons, and all wars cause unnecessary deaths. Therefore, stopping all wars should be our most important objective.  The world has suffered too long and lost too much to war and violence, and we must try and stop it now.  If the United Nations can&#39;t prevent war, then we must try another way.  We feel the &#34;World Peace Now and Forever Plan&#34; offers a possible solution, and that is why World Peace Society is trying to bring it to the attention of the world.  Let anyone who thinks they have a better plan bring it forward.
 <br>
 <br>
-Many people in the world recognize the tyranny of the Assad government, but it is up to the Syrian people to depose him – not foreign powers.  What the world can do is demand and force Assad to give up his deadly weapons. Until dismissed, he could still manage the government, but lack the ability to terrorize his citizens. The world can also silence the war-making violence of all rebel forces in Syria. The strength of military power of an international police force can enforce these demands. UN action is not necessary to put together this international police force, but the fact that it is created for the benefit of all mankind can bestow it moral stature.  This international police force should also ensure that free, legitimate elections be held within a reasonable time, and that they permit Syrian citizens a fair chance to elect a government of their own choice. The Assad government and all Syrian rebel forces can be part of this independent Syrian police force, but no one party should control more than ten percent of its power, and no-one should possess an overwhelming veto vote.  
+Many people in the world recognize the tyranny of the Assad government, but it is up to the Syrian people to depose him – not foreign powers.  What the world can do is demand and force Assad to give up his deadly weapons. Until dismissed, he could still manage the government, but lack the ability to terrorize his citizens. The world can also silence the war-making violence of all rebel forces in Syria. The strength of military power of an international police force can enforce these demands. UN action is not necessary to put together this international police force, but the fact that it is created for the benefit of all mankind can bestow it moral stature.  This international police force should also ensure that free, legitimate elections be held within a reasonable time, and that they permit Syrian citizens a fair chance to elect a government of their own choice. The Assad government and all Syrian rebel forces can be part of this independent Syrian police force, but no one party should control more than ten percent of its power, and no-one should possess an overwhelming veto vote.
 <br>
 <br>
 Let us state what this would attain.
@@ -209,7 +211,7 @@ Tel: 212-873-9277
 <font size="2">
 CLICK HERE to view <a href="http://www.worldpeacesociety.org">WorldPeaceSociety.org</a> and <a href="http://www.waytopeace.org">WayToPeace.org</a>
 <br>
-CLICK HERE to view <a href="http://www.peaceclub.biz">PeaceClub.biz</a> 
+CLICK HERE to view <a href="http://www.peaceclub.biz">PeaceClub.biz</a>
 <br>
 <br>
 <br>
@@ -246,10 +248,10 @@ $sql = "SELECT " .
         "essay1 " .
 		"FROM peace_petitions  where last_name='1000' " .
 		"ORDER BY sign_date DESC";
-		
-$result = mysql_query($sql);		
+
+$result = mysql_query($sql);
 if ($result) {
-	while ($row = mysql_fetch_row($result)) {		
+	while ($row = mysql_fetch_row($result)) {
 		$i = 0;
               $first_name = $row[$i++];
               $last_name = $row[$i++];
@@ -291,12 +293,12 @@ mysql_close($dblink);?>
 <br>
 </strong>
 </p>
-<?php 
+<?php
 	//alert error message if any
 	if ($errmsg != "") {
 ?>
 <script type="text/javascript">
-<!-- 
+<!--
 	alert("<?= $errmsg ?>");
 // -->
 </script>
